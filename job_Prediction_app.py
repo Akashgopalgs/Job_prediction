@@ -9,7 +9,7 @@ with open('naive_bayes_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Title of the app
-st.title('Job Future Prediction App 💻')
+st.title('Employee Job Future Prediction App 💻')
 
 # Collect user inputs for the model features with specified ranges and steps
 satisfaction = st.slider('Satisfaction Level', 0.0, 1.0, 0.5, step=0.01)
